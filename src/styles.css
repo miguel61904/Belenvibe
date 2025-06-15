@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url("../public/img/medellin-182352.jpg");
+    background-size: cover;
+    background-position: center;
+}
