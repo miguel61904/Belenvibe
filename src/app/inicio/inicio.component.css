@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 nav{
@@ -11,7 +12,7 @@ nav{
     list-style: none;
     color: white;
     font-size: 20px;
-    font-family: "Exo 2";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 ul{
@@ -29,7 +30,9 @@ ul li{
 
 
 .slider{
-    background-image: url("/img/balcon.jpeg");
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, black 100%),
+    url("/img/noche.jpg");
     height: 100dvh;
     width: 100dvw;
     background-size: cover;
@@ -57,6 +60,7 @@ ul li{
 #navReserva:hover{
     transform:scale(1.1);
     background-color: rgb(142, 203, 228);
+    color: rgb(26, 154, 204) ;
 }
 
 .parent {
@@ -75,9 +79,8 @@ ul li{
 .div4 {
     grid-column-start: 3;
     grid-row-start: 1;
-    background-color: aqua;
-    height: 25vh;
-    width: 25vw;
+    height: 30vh;
+    width: 30vw;
     background-image: url("/img/comedor.jpeg");
     background-size: cover;
     background-position: center;
@@ -86,7 +89,6 @@ ul li{
 .div5 {
     grid-column-start: 3;
     grid-row-start: 2;
-    background-color:antiquewhite;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,8 +97,8 @@ ul li{
 .div6 {
     grid-column-start: 2;
     grid-row-start: 2;
-    height: 25vh;
-    width: 25vw;
+    height: 30vh;
+    width: 30vw;
     background-image: url("/img/habitacion1.jpeg");
     background-size: cover;
     background-position: center;
@@ -105,9 +107,8 @@ ul li{
 .div7 {
     grid-column-start: 4;
     grid-row-start: 2;
-    background-color: rgb(94, 76, 126);
-    height: 25vh;
-    width: 25vw;
+    height: 30vh;
+    width: 30vw;
     background-image: url("/img/habitacion3.jpeg");
     background-size: cover;
     background-position: center;
@@ -116,7 +117,6 @@ ul li{
 .div8 {
     grid-column-start: 3;
     grid-row-start: 3;
-    background-color: rgb(255, 0, 13);
     background-image: url("/img/sala.jpeg");
     background-size: cover;
     background-position: center;
@@ -125,7 +125,6 @@ ul li{
 .div9 {
     grid-column-start: 2;
     grid-row-start: 1;
-    background-color: rgb(251, 255, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +133,6 @@ ul li{
 .div10 {
     grid-column-start: 4;
     grid-row-start: 3;
-    background-color: rgb(2, 20, 20);
     display: flex;
     align-items: center;
     justify-content: center;
