@@ -1,10 +1,10 @@
 *{
     margin: 0;
-    padding: 0;
 }
 
 html{
     background-color: black;
-    background-size: cover;
-    background-position: center;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
 }
