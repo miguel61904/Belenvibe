@@ -195,6 +195,8 @@ ul li{
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* sombra */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* animación al hacer hover */
+    width: 30dvw; 
+    height: 35dvh;
 }
 
 #commitOne:hover{
@@ -225,6 +227,8 @@ ul li{
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* sombra */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* animación al hacer hover */
+    width: 30dvw; 
+    height: 35dvh;
 }
 
 #commitTow:hover{
@@ -258,6 +262,25 @@ form input{
     height: 4dvh;
     width: 20dvw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form textarea{
+  width: 20dvw; 
+  height: 20dvh; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form button{
+  margin-top: 10px; 
+  width: 5dvw; 
+  height: 4dvh;
+}
+
+#boxForm{
+  background-image: url('/img/noche.jpg'); 
+  width: 50dvw; 
+  height: 70dvh; 
+  border-radius: 5px;
 }
 
 /*footer*/

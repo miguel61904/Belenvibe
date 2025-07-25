@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-inicio',
   standalone: true,
   imports: [],
   templateUrl: './inicio.component.html',
-  styleUrl: './inicio.component.css'
+  styleUrls: ['./inicio.component.css','./responsive.css']
 })
 export class InicioComponent {
   public reserva(){

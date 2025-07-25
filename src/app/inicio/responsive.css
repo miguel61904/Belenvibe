@@ -1,0 +1,110 @@
+@media only screen and (max-width: 767px) {
+    .slider img{
+        max-width: 80dvw;
+        max-height: 80dvh;
+    }
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    img, video, iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden; 
+    }
+
+    .footer-section ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        box-sizing: border-box;
+        padding: 1rem;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #navReserva{
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 80px;
+    height: 25px;
+}
+    #commits{
+        grid-template-columns: 2fr 2fr;
+    }
+
+    #commitsTwo{
+        grid-template-columns: 2fr 2fr;
+    }
+
+    #commitOne{
+        font-size: 15px;
+    }
+
+    #commitTow{
+        font-size: 15px;
+    }
+
+    #boxForm{
+        width: 100%;
+    }
+
+    form input{
+        margin: 20px;
+        height: 4dvh;
+        width: 40dvw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    form textarea{
+        width: 40dvw; 
+        height: 20dvh; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    form button{
+        margin-top: 10px; 
+        width: 12dvw; 
+        height: 4dvh;
+    }
+
+    #commitOne{
+    width: 45dvw; 
+    height: 35dvh;
+}
+
+    #commitTow{
+        width: 45dvw; 
+        height: 35dvh;
+    }
+    .whatsapp {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+  }
+
+    .whatsapp svg {
+        width: 30px;
+        height: 30px;
+  }
+}
