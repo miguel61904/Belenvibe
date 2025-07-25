@@ -1,6 +1,7 @@
 @media only screen and (max-width: 767px) {
     .slider img{
-        max-width: 80dvw;
+        margin-top: 30px;
+        max-width: 100dvw;
         max-height: 80dvh;
     }
 
